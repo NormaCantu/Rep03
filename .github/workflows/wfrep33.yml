@@ -4,10 +4,10 @@ name: Deploy Infrastructure
 on:
  push: 
   branches:
-    - dev
+    - main
  workflow_dispatch:
 env:
- prefix: 'advs1'
+ prefix: 'ncm03'
 
 jobs:
   deploy:
